@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_block_information_sections",
+  "info": {
+    "displayName": "Information Section"
+  },
+  "options": {},
+  "attributes": {
+    "cities": {
+      "type": "component",
+      "component": "shared.city",
+      "repeatable": true
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

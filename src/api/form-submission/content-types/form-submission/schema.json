@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_submissions",
+  "info": {
+    "singularName": "form-submission",
+    "pluralName": "form-submissions",
+    "displayName": "Form Submission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "Function": {
+      "type": "string"
+    },
+    "descriptiveText": {
+      "type": "text"
+    },
+    "attachDocument": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

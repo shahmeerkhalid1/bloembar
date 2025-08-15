@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_block_logo_sections",
+  "info": {
+    "displayName": "Logo Section"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundText": {
+      "type": "string"
+    },
+    "musicFile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

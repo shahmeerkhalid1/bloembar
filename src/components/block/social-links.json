@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_social_links",
+  "info": {
+    "displayName": "Social Links"
+  },
+  "options": {},
+  "attributes": {
+    "Social": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

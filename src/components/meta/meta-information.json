@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_meta_meta_informations",
+  "info": {
+    "displayName": "Meta Information"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "metaRobots": {
+      "type": "enumeration",
+      "enum": [
+        "index",
+        "follow",
+        "noindex",
+        "nofollow"
+      ]
+    },
+    "openGraph": {
+      "type": "component",
+      "component": "meta.open-graph",
+      "repeatable": false
+    },
+    "language": {
+      "type": "enumeration",
+      "default": "nl-NL",
+      "enum": [
+        "nl-NL",
+        "en-US",
+        "de",
+        "de-At",
+        "de-Li",
+        "de-Lu",
+        "de-Ch"
+      ]
+    },
+    "favIcon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

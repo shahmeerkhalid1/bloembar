@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_meta_meta_keywords",
+  "info": {
+    "displayName": "Meta Keywords"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

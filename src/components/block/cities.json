@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_cities",
+  "info": {
+    "displayName": "Cities"
+  },
+  "options": {},
+  "attributes": {
+    "cities": {
+      "type": "component",
+      "component": "shared.city",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

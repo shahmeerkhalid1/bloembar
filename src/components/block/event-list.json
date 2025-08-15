@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_event_lists",
+  "info": {
+    "displayName": "Event List"
+  },
+  "options": {},
+  "attributes": {
+    "bingoEvents": {
+      "type": "component",
+      "component": "shared.feature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

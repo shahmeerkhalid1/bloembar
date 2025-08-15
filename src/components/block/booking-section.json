@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_block_booking_sections",
+  "info": {
+    "displayName": "Booking Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "book": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

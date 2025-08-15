@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_text_areas",
+  "info": {
+    "displayName": "textArea"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "text"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_nav_links",
+  "info": {
+    "displayName": "Nav Links"
+  },
+  "options": {},
+  "attributes": {
+    "navItems": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

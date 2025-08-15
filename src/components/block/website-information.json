@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_block_website_informations",
+  "info": {
+    "displayName": "Website Information"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "open": {
+      "type": "string"
+    },
+    "close": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_infos",
+  "info": {
+    "singularName": "contact-info",
+    "pluralName": "contact-infos",
+    "displayName": "Contact Info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "component",
+      "component": "shared.text-input",
+      "repeatable": false
+    },
+    "lastName": {
+      "type": "component",
+      "component": "shared.text-input",
+      "repeatable": false
+    },
+    "email": {
+      "type": "component",
+      "component": "shared.text-input",
+      "repeatable": false
+    },
+    "message": {
+      "type": "component",
+      "component": "shared.text-input",
+      "repeatable": false
+    }
+  }
+}

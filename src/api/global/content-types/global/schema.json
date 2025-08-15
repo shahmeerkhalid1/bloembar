@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "global"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "block.feature-list",
+        "block.service-list",
+        "block.event-list",
+        "block.social-links",
+        "block.booking-section",
+        "block.information-section",
+        "block.cities",
+        "block.gallery-section",
+        "block.nav-links",
+        "block.website-information",
+        "block.logo-section"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_themes",
+  "info": {
+    "displayName": "Color"
+  },
+  "options": {},
+  "attributes": {
+    "primaryColor": {
+      "type": "string"
+    },
+    "secondaryColor": {
+      "type": "string"
+    },
+    "whiteColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "blackColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "complementary": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

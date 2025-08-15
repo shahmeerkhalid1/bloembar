@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_cities",
+  "info": {
+    "displayName": "City Name"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "color": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

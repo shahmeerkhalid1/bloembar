@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_service_lists",
+  "info": {
+    "displayName": "Service List"
+  },
+  "options": {},
+  "attributes": {
+    "Services": {
+      "type": "component",
+      "component": "shared.feature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

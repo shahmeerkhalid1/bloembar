@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_theme_colors",
+  "info": {
+    "displayName": "Theme Colors"
+  },
+  "options": {},
+  "attributes": {
+    "Colors": {
+      "type": "component",
+      "component": "shared.theme",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

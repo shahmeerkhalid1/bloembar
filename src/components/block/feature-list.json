@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_feature_lists",
+  "info": {
+    "displayName": "Feature List"
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "component",
+      "component": "shared.feature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_text_inputs",
+  "info": {
+    "displayName": "textInput"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
