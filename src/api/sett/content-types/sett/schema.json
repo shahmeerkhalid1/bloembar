@@ -16,11 +16,6 @@
       "component": "shared.theme",
       "repeatable": true
     },
-    "cities": {
-      "type": "component",
-      "component": "shared.city",
-      "repeatable": true
-    },
     "metaData": {
       "type": "component",
       "component": "meta.meta-information",

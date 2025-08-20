@@ -496,7 +496,6 @@ export interface ApiSettSett extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    cities: Schema.Attribute.Component<'shared.city', true>;
     colors: Schema.Attribute.Component<'shared.theme', true>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

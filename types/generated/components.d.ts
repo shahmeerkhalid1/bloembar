@@ -60,7 +60,6 @@ export interface BlockInformationSection extends Struct.ComponentSchema {
     displayName: 'Information Section';
   };
   attributes: {
-    cities: Schema.Attribute.Component<'shared.city', true>;
     description: Schema.Attribute.Blocks;
   };
 }
@@ -72,7 +71,6 @@ export interface BlockLogoSection extends Struct.ComponentSchema {
   };
   attributes: {
     backgroundText: Schema.Attribute.String;
-    musicFile: Schema.Attribute.Media<'audios'>;
   };
 }
 

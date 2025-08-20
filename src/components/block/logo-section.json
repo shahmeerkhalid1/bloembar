@@ -7,13 +7,6 @@
   "attributes": {
     "backgroundText": {
       "type": "string"
-    },
-    "musicFile": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "audios"
-      ]
     }
   },
   "config": {}

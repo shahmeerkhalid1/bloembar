@@ -79,16 +79,7 @@ export const GLOBAL_QUERY_PARAMS = {
         
         // Information Section Block
         'block.information-section': {
-          populate: {
-            cities: {
-              populate: {
-                image: {
-                  fields: ['name', 'alternativeText', 'caption','url' ]
-                }
-              }
-            }
-            // description is type "blocks" and is automatically included
-          }
+          populate: '*'
         },
         
         // Cities Block
