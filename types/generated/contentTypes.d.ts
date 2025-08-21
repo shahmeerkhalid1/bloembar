@@ -505,6 +505,8 @@ export interface ApiSettSett extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     metaData: Schema.Attribute.Component<'meta.meta-information', false>;
     publishedAt: Schema.Attribute.DateTime;
+    reserveerDescription: Schema.Attribute.Text;
+    reserveerTitle: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

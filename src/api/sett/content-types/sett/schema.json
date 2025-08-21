@@ -23,6 +23,12 @@
     },
     "zenchefResturantId": {
       "type": "string"
+    },
+    "reserveerTitle": {
+      "type": "string"
+    },
+    "reserveerDescription": {
+      "type": "text"
     }
   }
 }
