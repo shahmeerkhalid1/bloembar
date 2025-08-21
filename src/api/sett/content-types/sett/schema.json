@@ -20,6 +20,9 @@
       "type": "component",
       "component": "meta.meta-information",
       "repeatable": false
+    },
+    "zenchefResturantId": {
+      "type": "string"
     }
   }
 }
