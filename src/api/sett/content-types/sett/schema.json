@@ -21,9 +21,6 @@
       "component": "meta.meta-information",
       "repeatable": false
     },
-    "zenchefResturantId": {
-      "type": "string"
-    },
     "reserveerTitle": {
       "type": "string"
     },
